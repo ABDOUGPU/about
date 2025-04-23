@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #023636;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0rem;
+    padding: 0.5rem 0;
+    max-width: 12000px;
+    padding: 0 2rem;
+    
+}
+.navigation ul{
+    display: flex;
+    list-style-type: none;
+}
+.navigation a{
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+.navigation a:hover{
+    color: #234f53;
+    transition: all 0.3s ease-in-out;
+}
+hr{
+    margin: 2rem auto;
+    width: 100%;
+    border: 1px solid #ffffff;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin: 5rem auto;
+    max-width: 12000px;  
+}
+.arrow{
+position: absolute;
+transform: translateX(-5.5rem) translateY(1.5rem);
+}
+.hero-sub{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.name{
+    font-size: 3rem;
+   
+    color: #ffffff;
+}
+.title{
+    font-size: 2rem;
+    color: #02b9da;
+}
+.hero-btns{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+.contact{
+    background-color: #02b9da;
+    color: #ffffff;
+    border-radius: 24px;
+    text-decoration: none;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 0.5rem 1.5rem;
+    
+}
+.cv{
+    background-color: #576466;
+    color: #ffffff;
+    border-radius: 24px;
+    text-decoration: none;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 0.5rem 1.5rem;
+    display: flex;
+    gap: 0.5rem;
+    backdrop-filter: blur(4px);   
+}
+.hero-img{
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 24px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.aboutMe{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem auto;
+    max-width: 12000px; 
+    gap : 10rem; 
+}
+
+.textTitle{
+   display: flex;
+    align-items: center;
+   font-size: 2rem;
+   gap: 5px;
+}
+.aboutName{
+    color: rgb(0, 255, 221); ;
+}
+.aboutTitle{
+    color: #ffffff
+   
+}
+.aboutMePar{
+    text-align: justify;
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin-top: 1rem;
+    line-height: 1.5rem;
+}
+.contactl{
+    background-image: url('assets/svg/background.svg');
+     padding: 10rem 10rem;
+     margin: 5rem 0rem;
+}
+.contactMe{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+    max-width: 12000px; 
+    margin: 5rem auto;
+}
+.aa{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 5px;
+    font-size: 2rem;
+}
+.contactl ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+}
+.contactl li{
+   border-radius: 16px;
+   background-color: rgb(69, 28, 218);
+   backdrop-filter: blur(4px);
+   padding: 1rem 4rem;
+}
+.contactl li img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    transition: transform 0.3s ;
+
+}
+.contactl li:hover {
+    transform: scale(1.1);
+}
+.contactS{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin: 2rem;
+    max-width: 12000px;
+}
+
+.contactMeS{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    margin: 2rem auto;
+    font-size: 2rem; 
+}
+.contactForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20rem;
+    margin-right: 5rem;
+}
+.contactForm h3, .contactForm a{
+   text-decoration: none;
+    color: #ffffff; 
+}
+.emailandphone{
+    display: flex;
+    align-items: center;
+    justify-content: column;
+    gap: 4px;
+}
+.SOSIALMID{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.SOSIALMID img{
+    width: 24px;
+    height: 24px;
+    
+}
+.SOSIALMID a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background-color: #576466;
+    padding: 0.5rem 1rem;
+    backdrop-filter: blur(4px);
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+@media (max-width: 1023px) {
+    header {
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+    .hero {
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+    }
+    .hero-img {
+      width: 400px;
+    }
+    .name,
+    .title {
+      font-size: 2rem;
+    }
+    .hero img {
+      display: none;
+    }
+    .aboutMe {
+      flex-direction: column-reverse;
+      align-items: center;
+      gap: 2rem;
+    }
+    .textcontainer {
+      align-items: center;
+      margin: 0rem 5rem;
+      gap: 1rem;
+    }
+    .aboutName,
+    .aboutTitle {
+      font-size: 2rem;
+    }
+    .light {
+      width: 60px;
+    }
+    .aboutMeImg {
+      width: 400px;
+    }
+    .contactl {
+      padding: 0;
+    }
+    .contactMe {
+      padding: 5rem 0rem;
+      gap: 3rem;
+    }
+    .aa {
+      margin-left: 1rem;
+    }
+    .contactl ul {
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .contactS {
+      margin: 10rem 5rem;
+      gap: 2rem;
+    }
+    .contactForm {
+      flex-direction: column;
+      gap: 1rem;
+      margin-right: 0;
+    }
+  }
+  
+    
+
+
